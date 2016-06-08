@@ -1,0 +1,38 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "angular"
+  ],
+  "plugins": [
+    "angular",
+    "jasmine"
+  ],
+  "env": {
+    "browser": true,
+    "es6": true,
+    "jasmine": true,
+    "jquery": true,
+    "node": true
+  },
+  "ecmaFeatures": {
+    "blockBindings": true,
+    "templateStrings": true
+  },
+  "globals": {
+    "angular": true,
+    "_": true,
+    "inject": true,
+    "module": true,
+    "joint": false,
+    "paper": false,
+    "tinycolor": true,
+    "google": true
+  },
+  "rules": {
+    "no-console": 1,
+    "quotes": [1, "single"],
+    "eol-last": 1,
+    "space-before-blocks": [1, "always"],
+    "indent": [2, 2, {"SwitchCase": 1}]
+  }
+}
