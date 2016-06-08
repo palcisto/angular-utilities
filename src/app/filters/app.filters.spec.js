@@ -1,9 +1,9 @@
 (function() {
   'use strict';
 
-  describe('dates.filters', () => {
+  describe('app.filters', () => {
 
-    beforeEach(module('dates.filters'));
+    beforeEach(module('app.filters'));
 
     describe('dateRange filter', function() {
       let list = [{

@@ -3,7 +3,7 @@
 
   angular
     .module('app.filters', [])
-    .filter('dateRange', dateRangeFilter);
+    .filter('dateRange', dateRange);
 
   dateRange.$inject =  [];
 
